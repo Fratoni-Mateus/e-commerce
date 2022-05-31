@@ -42,9 +42,11 @@
 .buscarItem {
 
 }
-.item3 {
+.entre {
     padding: 25px 10px;
+    display: flex;
 }
-.item4 {
+.carrinho {
     padding: 25px 10px;
+    display: flex;
 }
