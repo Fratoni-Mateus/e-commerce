@@ -1,52 +1,62 @@
-*{
-    padding: 0px;
-    margin: 0px;
+/*----------RESET DA PAGINA----------*/
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
 }
-.logo {
-    height: 70px;
-    width: 210px;
-    margin-right: 50px;
 
-}
-.header {
-    display: flex;
-    background-color: #32c1b3;
+.container-header {
     width: 100%;
     height: 100px;
-    padding: 15px 20px;
+    border: 1px solid black; /* vizualizar box*/
+    padding: 0 20px; /* desgrudar das bordas*/
 }
 
-.lista {
+.flex {
     display: flex;
 }
 
-.iconeDoCatalogo {
-    margin-right: 5px;
+/*----------IMAGENS DO HEADER----------*/
+.img-logo {
+    width: 250px;
+    border: 1px solid black; /* vizualizar box*/
+}
+.img-icon {
+    width: 25px;
+}
+/*----------IMAGENS DO HEADER----------*/
+
+
+.space-between {
+    justify-content: space-between;
 }
 
-.catalogo {
-    display: flex;
-    padding: 25px 10px;
-    border-radius: 10px;
-    border:  2px solid black;
+.bg-color {
+    background-color: lightblue;
 }
-.textoCatalogo {
-    display: flex;
+
+.list-none {
+    list-style: none;
 }
-.buscar {
-    padding: 25px 10px;
+.align-center {
+    align-items: center;
+    align-content: center;
 }
-.buscarItem {
+.margin-right {
+    margin-right: 10px;
+}
+
+ul {
+    height: 100px;
+}
+
+/*LINKS E HOOVER*/
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: lightcoral;
 
 }
-.entre {
-    padding: 25px 10px;
-    display: flex;
-}
-.carrinho {
-    padding: 25px 10px;
-    display: flex;
-}
+
