@@ -21,8 +21,8 @@
     width: 250px;
     border: 1px solid black; /* vizualizar box*/
 }
-.img-icon {
-    width: 25px;
+.img-catalogo {
+height: 35px;
 }
 /*----------IMAGENS DO HEADER----------*/
 
@@ -59,4 +59,5 @@ a:hover {
     color: lightcoral;
 
 }
+
 
