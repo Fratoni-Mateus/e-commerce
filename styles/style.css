@@ -1,14 +1,86 @@
+/*--Importando a fonte--*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+/*--Importando a fonte--*/
+
+
+/*--Definindo as variáveis de cores--*/
+:root{
+    --dark-orange: #ff9f1c;
+    --light-orange: #ffbf69;
+    --white: #ffffff;
+    --light-grey: #ebebeb;
+    --dark-grey: #c2c2c2;
+    --black: #000000;
+    --light-cyan: #CBF3F0;
+    --dark-cyan: #2EC4B6;
+    --persian-blue: #1C39BB;
+}
+/*--Definindo as variáveis de cores--*/
+
+
 /*----------RESET DA PAGINA----------*/
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
 }
+/*----------RESET DA PAGINA----------*/
+
+
+/*--Definindo paddings--*/
+
+.pd-12{
+    padding: 12px;
+}
+
+.pd-24{
+    padding: 24px;
+}
+
+/*--Definindo paddings--*/
+
+
+/*--Definindo textos---*/
+.font-light{
+    font-weight: 300;
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+/*--Definindo textos---*/
+
+/*--Tamanhos de ícones--*/
+
+.icon-24{
+    height: 24px;
+    width: 24px;
+}
+
+.icon-50{
+    height: 50px;
+    width: 50px;
+}
+/*--Tamanhos de ícones--*/
 
 .container-header {
     width: 100%;
     height: 100px;
-    border: 1px solid black; /* vizualizar box*/
+    border: 1px solid black; /* visualizar box*/
     padding: 0 20px; /* desgrudar das bordas*/
 }
 
@@ -18,9 +90,14 @@
 
 /*----------IMAGENS DO HEADER----------*/
 .img-logo {
-    width: 250px;
-    border: 1px solid black; /* vizualizar box*/
+    display: block;
+    max-width: 212px;
+    max-height: 69px;
+    width: auto;
+    height: auto;
+    /*border: 1px solid black;*/ /* visualizar box*/
 }
+
 .img-catalogo {
 height: 35px;
 }
@@ -31,9 +108,10 @@ height: 35px;
     justify-content: space-between;
 }
 
-.bg-color {
-    background-color: lightblue;
+.bg-dCyan {
+    background-color: var(--dark-cyan);
 }
+
 
 .list-none {
     list-style: none;
@@ -46,9 +124,13 @@ height: 35px;
     margin-right: 10px;
 }
 
-ul {
-    height: 100px;
+.search-bar{
+    width: 40vw;
 }
+
+/*ul {
+    height: 100px;
+}*/
 
 /*LINKS E HOOVER*/
 a {
@@ -60,4 +142,25 @@ a:hover {
 
 }
 
+main{
+    height: 100vh; /*Teste para ver o site com barra de rolagem*/
+}
 
+/*--Footer--*/
+footer{
+    height: 167px;
+}
+
+.bg-lGrey{
+    background-color: var(--light-grey);
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.space-evenly{
+    justify-content: space-evenly;
+}
