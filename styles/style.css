@@ -145,9 +145,42 @@ height: 35px;
     text-indent: 25px;
 }
 
-/*ul {
-    height: 100px;
-}*/
+/*--Main--*/
+
+.gap{
+    margin:calc(125%/100);
+}
+
+.h-26{
+    height: 26vh;
+    min-height: 265px;
+}
+
+.w-66{
+    width: 66vw;
+}
+
+.w-33{
+    width: calc(66vw/2);
+}
+
+.w-16{
+    width: calc(66vw/4);
+}
+
+.bg-lCyan{
+    background-color: var(--light-cyan);
+}
+
+
+.first-child{
+    margin-left: 0;
+}
+
+.last-child{
+    margin-right: 0;
+}
+/*--Main--*/
 
 /*LINKS E HOOVER*/
 a {
@@ -157,10 +190,6 @@ a {
 a:hover {
     color: lightcoral;
 
-}
-
-main{
-    height: 100vh; /*Teste para ver o site com barra de rolagem*/
 }
 
 /*--Footer--*/
