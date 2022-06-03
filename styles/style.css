@@ -116,6 +116,9 @@ height: 35px;
     background-color: var(--dark-cyan);
 }
 
+.rounded{
+    border-radius: 11px;
+}
 
 .list-none {
     list-style: none;
