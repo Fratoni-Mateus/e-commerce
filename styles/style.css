@@ -130,8 +130,13 @@ height: 35px;
 .justify-center {
     justify-content: center;
     justify-items: center;
-
 }
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
 .margin-right {
     margin-right: 10px;
 }
@@ -180,6 +185,11 @@ height: 35px;
 .last-child{
     margin-right: 0;
 }
+
+.position-relative{
+    position: relative;
+}
+
 /*--Main--*/
 
 /*LINKS E HOOVER*/
