@@ -194,6 +194,29 @@ height: 35px;
     position: relative;
 }
 
+.round-button{
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index:1;
+}
+
+.bg-lOrange{
+    background-color: var(--light-orange);
+}
+
+.align-items-Flex-end{
+    align-items: center;
+}
+
+#top-carrousel{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
 /*--Main--*/
 
 /*LINKS E HOOVER*/
