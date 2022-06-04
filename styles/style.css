@@ -112,6 +112,10 @@ height: 35px;
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .bg-dCyan {
     background-color: var(--dark-cyan);
 }
@@ -222,33 +226,35 @@ footer{
 }
 
 /*TELA DE LOGIN*/
+.margin-auto {
+    margin: auto;
+    margin-bottom: 50px; /*SÓ PRA DESGRUDAR DO FOOTER*/
+    margin-top: 50px; /*SÓ PRA DESGRUDAR DO HEADER*/
+}
 
 .container-login {
 background-color: #ebebeb;
-
-width: 40vw;
+width: 60vw;
 height: 50vh;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-
-}
-.dark-cyan {
-    color: #2EC4B6;
 }
 .criar-acc{
-    width: 250px;
+    width: 430px;
     height: 300px;
     background-color: white;
 }
 
 .login-acc {
-    width: 250px;
+    width: 430px;
     height: 300px;
     background-color: white;
 
 }
+.dark-cyan {
+    color: #2EC4B6;
+}
+
+
+
 
 /* .icon{
     background-image: url(../assets/Search.png);
