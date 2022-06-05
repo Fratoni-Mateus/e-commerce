@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/flickty.css" media="screen">
     <title>E-Commerce| Home</title>
 </head>
 <body>
@@ -21,11 +22,15 @@
 
     <main>
         <div id="main-wrapper" class="flex-column space-evenly align-center">
-            <div id="top-carrousel" class="h-26 w-66 bg-lCyan gap rounded">
-                <div id="controller-button1" class="flex round-button bg-lOrange gap pointer"></div>
+            <div id="carrousel" class="h-26 w-66 bg-lCyan gap rounded js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true}'>
+                <img src="./assets/watch1.jpg" class="w-100 h-100 cover rounded">
+                <img src="./assets/watch2.jpg" class="w-100 h-100 cover rounded">
+                <img src="./assets/watch3.jpg" class="w-100 h-100 cover rounded">
+                <img src="./assets/watch4.jpg" class="w-100 h-100 cover rounded">
+                <!-- <div id="controller-button1" class="flex round-button bg-lOrange gap pointer"></div>
                 <div id="controller-button2" class="flex round-button bg-lOrange gap pointer"></div>
                 <div id="controller-button3" class="flex round-button bg-lOrange gap pointer"></div>
-                <div id="controller-button4" class="flex round-button bg-lOrange gap pointer"></div>
+                <div id="controller-button4" class="flex round-button bg-lOrange gap pointer"></div> -->
             </div>
             <div class="flex">
                 <div class="h-26 w-16 bg-lCyan gap first-child rounded flex-column flow-wrap space-evenly">
@@ -96,5 +101,6 @@
             </ul>
         </div>
     </footer>
+    <script src="./scripts/flickty.js"></script>
 </body>
 </html>

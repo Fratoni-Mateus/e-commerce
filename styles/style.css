@@ -221,11 +221,11 @@ height: 35px;
     background-color: var(--light-orange);
 }
 
-#top-carrousel{
+/* #top-carrousel{
     display: flex;
     justify-content:center;
     align-items: flex-end;
-}
+} */
 
 .flow-wrap{
     flex-flow: column wrap;
