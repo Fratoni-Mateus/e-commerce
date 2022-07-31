@@ -19,18 +19,26 @@
         </ul>
     </header>
 
-    <main>
-<fieldset>
-    <label>Nome: </label>
-    <input type="text" placeholder="Digite seu nome">
-    <label>Sobrenome: </label>
-    <input type="text" placeholder="Digite seu sobrenome">
-    <label>Data de nascimento: </label>
-    <input type="date" placeholder="date">
-    <label>E-mail</label>
-    <input type="email" placeholder="exemplo@seuemail.com">
-
-</fieldset>
+    <main class="w-100">
+        <form action="index.html" class="flex-column  container-login  align-center space-around margin-auto w-33">
+            <div class="w-066">
+                <label id="name-label" for="name">Nome:</label>
+                <input id="name" name="name" type="text" class="formOption w-100" placeholder="Digite seu nome" required>
+            </div>
+            <div class="w-066">
+                <label id="e-mail-label" for="e-mail">E-mail:</label>
+                <input id="e-mail" name="e-mail" type="email" class="formOption w-100" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="w-066">
+                <label id="password-label" for="password">Senha:</label>
+                <input id="password" name="password" type="password" class="formOption w-100" placeholder="Digite sua senha" required>
+            </div>
+            <div class="w-066">
+                <label id="password-check-label" for="password-check">Confirmação de senha:</label>
+                <input id="password-check" name="password-check" type="password" class="formOption w-100" placeholder="Confirme sua senha" required>
+            </div>
+            <button type="submit">Cadastrar</button></li>
+        </form>
 
     </main>
 
